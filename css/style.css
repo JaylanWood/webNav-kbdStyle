@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* 去除外边框高亮 */
+    outline: none;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: gray url(../img/001.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header>.searchBar {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+header>.searchBar>.search {
+    width: 300px;
+    height: 32px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+header>.searchBar>.submit {
+    cursor: pointer;
+    padding: 5px 15px;
+    height: 32px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main>.keyborad {
+    padding: 10px 5px;
+    background: rgba(128, 128, 128, 0.3);
+    /* margin: 50px 0; */
+    border: 1px solid rgba(128, 128, 128, 0.35);
+    border-radius: 5px;
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main>.keyborad>.row {
+
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+main>.keyborad>.row>kbd {
+    background: rgb(238, 236, 236);
+    cursor: default;
+    border-radius: 5px;
+    margin: 0 5px;
+    border: 1px solid rgb(170, 170, 170);
+    font-size: 16px;
+    padding: 20px 26px;
+    position: relative;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+main>.keyborad>.row>kbd>.editUrl {
+    border: 1px solid orange;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    scrollbar-highlight-color: none;
+}
+
+main>.keyborad>.row>kbd>.icon {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
