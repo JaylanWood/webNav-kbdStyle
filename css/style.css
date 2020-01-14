@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* 去除外边框高亮 */
     outline: none;
 }
 
@@ -15,7 +14,7 @@
 }
 
 body {
-    background: gray url(../img/001.jpg) no-repeat;
+    background: gray url(../img/wallpaper.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
