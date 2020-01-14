@@ -2,7 +2,7 @@
 
 ## 效果预览图
 
-![预览图](https://github.com/JaylanWood/webNav-kbdStyle/raw/master/img/preview.png)
+![预览图](https://github.com/JaylanWood/webNav-kbdStyle/raw/master/img/preview.jpg)
 
 ## 简介
 
