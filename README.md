@@ -1,12 +1,12 @@
 # 导航网站 - 键盘风格
 
-## 效果预览图
-
-![预览图](https://github.com/JaylanWood/webNav-kbdStyle/raw/master/img/preview.jpg)
-
 ## 简介
 
 一个键盘风格的导航网站。
+
+## 效果预览图
+
+![预览图](https://github.com/JaylanWood/webNav-kbdStyle/raw/master/img/preview.jpg)
 
 ## 效果预览
 
